@@ -15,8 +15,9 @@ st.set_page_config(
     layout ='wide'
 )
 
-st.title ('# Vodafone Customer Churn :chart :bar_chart :phone ')
-st.markdown("Vodafone Customer Churn Dashboard lets look at the data that we will be intreacting with in this project!")
+st.title('Vodafone Customer Churn :bar_chart: :chart_with_upwards_trend: :telephone_receiver:')
+st.markdown("Vodafone Customer Churn Dashboard lets look at the data that we will be interacting with in this project!", unsafe_allow_html=True)
+
 
 
 df = pd.read_csv('Files/vodafone_customer_churn.csv')
