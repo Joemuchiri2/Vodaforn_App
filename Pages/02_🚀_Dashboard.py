@@ -77,10 +77,7 @@ with col2:
 
 
 
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 def calculate_clv(df):
     # Assuming CLV is the sum of Total Charges for each customer

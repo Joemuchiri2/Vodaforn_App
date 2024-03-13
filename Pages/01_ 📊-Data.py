@@ -35,6 +35,7 @@ def database_query(query):
     with conn.cursor() as cur:
         cur.execute(query)
         rows = cur.fetchall()
+        
     
 
         df =  pd.DataFrame.from_records(data=rows, columns=[column [0] for column in cur.description])
@@ -72,3 +73,5 @@ if __name__ == "__main__":
         st.dataframe(data)
 
     st.write(st.session_state)
+
+    
