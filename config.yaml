@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    joemuchy2:
+      email: muchirijoseph337@gmail.com
+      logged_in: False # Will be managed automatically
+      name: Joseph Muchiri-Mbuthia
+      password: '654321' # Will be hashed automatically
+cookie:
+  expiry_days: 0
+  key: cookie_signature_key # Must be string
+  name: cookie_name
+preauthorized:
+  emails:
+  - joseph.muchiri@azubiafrica.org
+users:

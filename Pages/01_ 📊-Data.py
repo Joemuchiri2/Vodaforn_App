@@ -72,6 +72,6 @@ if __name__ == "__main__":
         data = select_features()
         st.dataframe(data)
 
-    st.write(st.session_state)
+    # st.write(st.session_state)
 
     
